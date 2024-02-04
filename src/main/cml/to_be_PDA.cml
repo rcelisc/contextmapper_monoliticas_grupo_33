@@ -1,0 +1,49 @@
+/* The DDD Cargo sample application modeled in CML. Note that we split the application into multiple bounded contexts. */
+ContextMap DDDasisPDA {
+    state AS_IS
+	contains SistemasExternosContext
+	contains SistemasExtraccionAutomatizadoContext
+	contains CentralizacionProcesamientoContext
+	contains CapturaInformacionManualContext
+    contains ValidacionEnriquecimientoDatosContext
+	contains ExposicionDatosContext
+    contains ClientesContext
+
+	SistemasExternosContext [D, ACL]<-[U,OHS,PL] SistemasExtraccionAutomatizadoContext
+
+	SistemasExtraccionAutomatizadoContext [D]<-[U,OHS,PL] CentralizacionProcesamientoContext
+	CentralizacionProcesamientoContext [D]<-[U,OHS,PL] ValidacionEnriquecimientoDatosContext
+	CentralizacionProcesamientoContext [D]<-[U,OHS,PL] CapturaInformacionManualContext
+	CentralizacionProcesamientoContext [D]<-[U,OHS,PL] ExposicionDatosContext
+    ClientesContext [D, ACL]<-[U,OHS,PL] ExposicionDatosContext
+}
+
+BoundedContext SistemasExternosContext {
+
+}
+
+BoundedContext SistemasExtraccionAutomatizadoContext {
+
+}
+
+BoundedContext CentralizacionProcesamientoContext {
+
+}
+
+BoundedContext CapturaInformacionManualContext {
+
+}
+
+
+BoundedContext ValidacionEnriquecimientoDatosContext {
+
+}
+
+BoundedContext ExposicionDatosContext {
+
+}
+
+BoundedContext ClientesContext {
+
+}
+
