@@ -19,7 +19,7 @@ You can find more info's about the tool and a complete documentation on our webs
 ## Create Your Own Context Mapping Repository
 You can simply fork this repository and click the button above to start the online IDE for your repo.
 
-## Useful Links
+## Useful Links()
  
  * [More example models](https://github.com/ContextMapper/context-mapper-examples)
  * [CML language reference](https://contextmapper.org/docs/language-reference/)
