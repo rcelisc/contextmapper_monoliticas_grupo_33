@@ -1,3 +1,19 @@
+# Entrega 1 - Diseño y construcción de aplicaciones no monolíticas
+
+En la imagen continuación se presenta la estructura del repositorio del proyecto e indicamos los archivo desarrollado para el context mappe ( los fragmentos de código)
+
+![image](https://github.com/rcelisc/contextmapper_monoliticas_grupo_33/assets/111647103/68a200a0-c33c-4466-8433-0028749602b4)
+
+
+
+
+
+
+
+
+
+
+
 ![Context Mapper](https://raw.githubusercontent.com/wiki/ContextMapper/context-mapper-dsl/logo/cm-logo-github-small.png)
 # Context Mapper Demo for Online IDE 
 [![Build](https://github.com/ContextMapper/web-ide-demo/actions/workflows/build.yml/badge.svg)](https://github.com/ContextMapper/web-ide-demo/actions) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ContextMapper/web-ide-demo) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
